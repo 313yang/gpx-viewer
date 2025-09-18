@@ -44,7 +44,8 @@ const MapView: FC = () => {
       const m = new window.google.maps.Map(mapRef.current, {
         center: { lat: 37.5665, lng: 126.9780 },
         zoom: 12,
-        mapId: "dcc1ff2bae897fea67ed3a3d",
+        mapId: "c0a25ce225e1da024b403bc2",
+        disableDefaultUI: true,
       });
       setMap(m);
     });
