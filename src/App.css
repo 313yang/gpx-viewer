@@ -1,0 +1,23 @@
+#root {
+  text-align: center;
+}
+
+.map-container {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.gpx-file {
+  position: absolute;
+  z-index: 1;
+  margin: 12px;
+  color: #000;
+}
+
+.map-viewer {
+  width: 100vw;
+  height: 100vh;
+}
